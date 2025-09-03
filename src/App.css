@@ -1,0 +1,32 @@
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.controls {
+  margin: 2rem 0;
+}
+
+.controls button {
+  margin-right: 0.5rem;
+}
+
+.controls button:last-child {
+  margin-right: 0;
+}
+
+#injector-target {
+  padding: 1rem;
+  border-radius: 1rem;
+  background: thistle;
+  min-height: 12rem;
+}
+
+.injected-child {
+  background: mediumpurple;
+  border-radius: 1rem;
+  margin: 1rem 0;
+  padding: 1rem;
+}
